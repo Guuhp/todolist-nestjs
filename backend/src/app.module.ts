@@ -5,6 +5,7 @@ import { Task } from './task/entities/task.entity';
 import { TaskModule } from './task/task.module';
 import { User } from './user/entities/user.entity';
 import { UserModule } from './user/user.module';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
