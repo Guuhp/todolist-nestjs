@@ -1,0 +1,10 @@
+version: '3'
+bank_account:
+  image: mysql:latest
+  container_name: bank_account
+  environment:
+    MYSQL_ROOT_PASSWORD: admin
+  ports:
+    - '9001:3306'
+  volumes:
+    - ./mysql:/var/lib/mysql
